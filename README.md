@@ -4,25 +4,27 @@ This repository contains the implementation for **Coursework 1** of the **F29AI:
 The objective is to demonstrate the use of search algorithms by implementing **A\*** search within a provided Java framework.
 
 > **A\*** is a heuristic-based pathfinding algorithm that combines the cost from the start node with an estimated cost to the goal,
-  providing optimal and efficient solutions in grid-based problems.
+> providing optimal and efficient solutions in grid-based problems.
 
 ## Features
 
--  Custom `State` and `SearchOrder` implementations
--  Uses Manhattan distance as the heuristic
--  Modular design for defining search problems
--  Tested on two provided grid environments
--  Runs on standard Java with no external dependencies
+- Custom `State` and `SearchOrder` implementations
+- Uses Manhattan distance as the heuristic
+- Modular design for defining search problems
+- Tested on two provided grid environments
+- Runs on standard Java with no external dependencies
 
-## 🧩 Key Components
+## Key Components
 
 ### `AstarState.java`
+
 - Represents a state in the search problem using grid coordinates `(x, y)`
 - Implements:
   - `isGoal()` — checks if the state is the target position
   - `getHeuristic()` — calculates Manhattan distance to goal
 
 ### `AstarSearchOrder.java`
+
 - Implements the `SearchOrder` interface
 - Manages the fringe using a priority queue ordered by F-value (cost + heuristic)
 - Ensures optimal exploration order per A\* rules
@@ -39,7 +41,10 @@ The objective is to demonstrate the use of search algorithms by implementing **A
 | `AstarState`       | Grid-based state with (x, y) coordinates and goal logic. |
 
 ### Testing with Provided Grids
+
 The coursework includes two grids:
+
+<img src="./grid.png" alt="grids"/>
 
 Compile the Java files:
 
@@ -57,16 +62,7 @@ java -cp bin uk.ac.hw.macs.search.example.Main
 
 Java Development Kit (JDK) 8 or higher.
 
+## Contributors:
 
-## Contributors: 
-
-
-
-
-
-
-
-
-
-
-
+- **Vaishnavi Chintha** [`@Vaishnavi-chintha`](https://github.com/Vaishnavi-chintha)
+- **Ihsan Fazal** [`Ihsan-Fazal`](https://github.com/Ihsan-Fazal)
