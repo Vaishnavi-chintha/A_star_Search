@@ -1,6 +1,6 @@
-# F29AI Coursework 1 – A\* Search and Automated Planning
+# Coursework 1 – A\* Search and Automated Planning
 
-This repository contains the implementation for **Coursework 1** of the **F29AI: Artificial Intelligence** module at Heriot-Watt University.
+This repository contains the implementation for **Coursework 1** of the **Artificial Intelligence** module at Heriot-Watt University.
 The objective is to demonstrate the use of search algorithms by implementing **A\*** search within a provided Java framework.
 
 > **A\*** is a heuristic-based pathfinding algorithm that combines the cost from the start node with an estimated cost to the goal,
