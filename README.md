@@ -1,4 +1,4 @@
-# Coursework 1 – A\* Search and Automated Planning
+# CW 1 A\* Search
 
 This repository contains the implementation for **Coursework 1** of the **Artificial Intelligence** module at Heriot-Watt University.
 The objective is to demonstrate the use of search algorithms by implementing **A\*** search within a provided Java framework.
